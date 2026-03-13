@@ -1,7 +1,7 @@
 # GCM MCP Server
 
-IBM Guardium Cryptographic Manager (GCM) MCP Server - A Model Context Protocol server for interacting with IBM GCM's cryptographic asset management platform.
-Based on [https://github.com/IBM/gcm-mcp-server](https://github.com/IBM/gcm-mcp-server)
+IBM Guardium Cryptographic Manager [(GCM) MCP Server](https://github.com/ncee-dp-tech-sme/gcm-mcp-server ) - A Model Context Protocol server for interacting with IBM GCM's cryptographic asset management platform.
+
 ## Overview
 
 This MCP server provides tools to interact with IBM Guardium Cryptographic Manager, enabling:
@@ -402,7 +402,7 @@ For issues, questions, or contributions:
 - Check container logs: `podman logs gcm-mcp-server`
 - Verify health endpoint: `curl http://localhost:8002/health`
 
-## License
+## Original Repository
 
-[Your License Here]
+Based on [https://github.com/IBM/gcm-mcp-server](https://github.com/IBM/gcm-mcp-server)
 
