@@ -41,3 +41,5 @@ env/
 Thumbs.db
 .bob/mcp.json
 gcm_session_output.md
+qs_scan_result/
+qs_explorer_result/
