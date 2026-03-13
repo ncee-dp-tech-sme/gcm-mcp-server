@@ -40,3 +40,4 @@ env/
 .DS_Store
 Thumbs.db
 .bob/mcp.json
+gcm_session_output.md
