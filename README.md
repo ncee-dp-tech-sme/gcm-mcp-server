@@ -121,7 +121,18 @@ Replace the Bearer token with your actual API key from step 3.
 
 After adding the configuration, restart Bob IDE to load the new MCP server.
 
-#### Step 4: Verify Connection in Bob IDE
+#### Step 4: Create a new "slash" command in Bob
+
+add a new slash command name gcmapp via the chat window and add the following to the description
+```
+---
+description: "this slash command will always use the gcm-mcp-server to execute commands"
+---
+
+When this slash command is executed, it will use the gcm-mcp-server to run the command and return the output.
+```
+
+#### Step 5: Verify Connection in Bob IDE
 
 In Bob IDE, you should now be able to use the `/gcmmcp` command to interact with GCM:
 
@@ -130,6 +141,9 @@ In Bob IDE, you should now be able to use the `/gcmmcp` command to interact with
 /gcmmcp List open tickets
 /gcmmcp Show authentication status
 ```
+
+#### list of example prompts to use in Bob IDE
+The following file contains an extensive list to be used in Bob IDE [GCM-MCP-EXAMPLE-PROMPTS.md](GCM-MCP-EXAMPLE-PROMPTS.md)
 
 ## Configuration
 
@@ -391,3 +405,4 @@ For issues, questions, or contributions:
 ## License
 
 [Your License Here]
+
